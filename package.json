@@ -12,7 +12,8 @@
   "scripts": {
     "test": "gulp test",
     "publish-please": "publish-please",
-    "prepublish": "publish-please guard"
+    "prepublish": "publish-please guard",
+    "postinstall": "npm install && gulp build"
   },
   "keywords": [
     "phil",
