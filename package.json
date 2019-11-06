@@ -13,7 +13,7 @@
     "test": "gulp test",
     "publish-please": "publish-please",
     "prepublish": "publish-please guard",
-    "postinstall": "cd .\node_modules\testcafe-reporter-phil && yarn install && gulp build"
+    "postinstall": "cd .\node_modules\testcafe-reporter-phil && npm install && gulp build"
   },
   "keywords": [
     "phil",
