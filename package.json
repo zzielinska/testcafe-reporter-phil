@@ -22,7 +22,7 @@
     "plugin"
   ],
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "babel-eslint": "^4.0.10",
     "callsite-record": "^3.2.0",
     "del": "^1.2.0",
