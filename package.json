@@ -9,9 +9,6 @@
     "url": "http://freakyturtle.com"
   },
   "main": "lib/index",
-  "files": [
-    "lib"
-  ],
   "scripts": {
     "test": "gulp test",
     "publish-please": "publish-please",
