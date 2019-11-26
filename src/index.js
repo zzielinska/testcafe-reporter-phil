@@ -19,6 +19,8 @@ export default function () {
         reportFixtureStart (name, path, meta) {
             this.currentFixtureName = name;
             this.configName = meta.configuration;
+            this.enviromentName = meta.enviromentName;
+            this.user = meta.user;
         },
 
         reportTestDone (name, testRunInfo, meta) {
@@ -128,6 +130,10 @@ export default function () {
                 .write('<h3>Summary</h3><br>')
                 .newline()
                 .write(`<p class="lead">Configuration Name: ${this.configName}</p>`)
+                .newline()
+                .write(`<p class="lead">Enviroment Name: ${this.enviromentName}</p>`)
+                .newline()
+                .write(`<p class="lead">User Login: ${this.user}</p>`)
                 .newline()
                 .write(`<p class="lead">Start Time: ${this.startTime}</p>`)
                 .newline()
